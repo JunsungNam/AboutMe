@@ -1,24 +1,38 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 h1 {
   font-size: 45px;
   text-align: center;
-  border-bottom: 2px solid gold;
+  border-bottom: 2px solid rgb(209, 150, 21);
   margin: 0px;
-  padding: 20px;
+  padding: 30px;
 }
 #me {
   font-size: 15px;
   text-align: center;
-  border-bottom: 2px solid gold;
+  border-bottom: 2px solid rgb(209, 150, 21);
   margin: 0px;
   padding: 20px;
 }
 a {
   text-decoration: none;
-  color: gold;
+  color: rgb(209, 150, 21);
 }
 #list {
-  border-right: 2px solid gold;
-  border-bottom: 2px solid gold;
+  border-right: 2px solid rgb(209, 150, 21);
+  border-bottom: 2px solid rgb(209, 150, 21);
 
   width: 300px;
   margin: 0;
@@ -27,16 +41,19 @@ a {
   line-height: 1.9em;
 }
 body {
-  margin: 10px;
+  margin: 2px;
   background-color: black;
-  color: gold;
+  color: rgb(209, 150, 21);
   line-height: 1.4em;
   vertical-align: baseline;
+  border: 2px solid rgb(209, 150, 21);
 }
+
 #grid {
   display: grid;
   grid-template-columns: 300px 1fr;
 }
+
 #article {
   padding-left: 30px;
   margin-right: 50px;
