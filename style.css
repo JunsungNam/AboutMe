@@ -47,6 +47,7 @@ body {
   line-height: 1.4em;
   vertical-align: baseline;
   border: 2px solid rgb(209, 150, 21);
+  font-family : arial, "Times New Roman", sans;
 }
 
 #grid {
