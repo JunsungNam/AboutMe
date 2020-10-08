@@ -64,3 +64,8 @@ img.JunSungPhoto {
     border-bottom: block;
   }
 }
+@media (mid-width: 800px) {
+  #list {
+    border-bottom: none;
+  }
+}
