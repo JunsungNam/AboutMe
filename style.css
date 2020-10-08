@@ -1,0 +1,66 @@
+h1 {
+  font-size: 45px;
+  text-align: center;
+  border-bottom: 2px solid gold;
+  margin: 0px;
+  padding: 20px;
+}
+#me {
+  font-size: 15px;
+  text-align: center;
+  border-bottom: 2px solid gold;
+  margin: 0px;
+  padding: 20px;
+}
+a {
+  text-decoration: none;
+  color: gold;
+}
+#list {
+  border-right: 2px solid gold;
+  border-bottom: 2px solid gold;
+
+  width: 300px;
+  margin: 0;
+  padding: 0px;
+  padding-left: 0px;
+  line-height: 1.9em;
+}
+body {
+  margin: 10px;
+  background-color: black;
+  color: gold;
+  line-height: 1.4em;
+  vertical-align: baseline;
+}
+#grid {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+}
+#article {
+  padding-left: 30px;
+  margin-right: 50px;
+}
+
+img.JunSungPhoto {
+  width: 300px;
+  height: 380px;
+  float: right;
+  margin: 20px;
+}
+@media (max-width: 800px) {
+  #grid {
+    display: block;
+  }
+  #list {
+    border-right: none;
+    border-bottom: block;
+    width: 800px;
+  }
+  h1 {
+    border-bottom: block;
+  }
+  #me {
+    border-bottom: block;
+  }
+}
