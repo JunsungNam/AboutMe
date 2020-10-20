@@ -18,6 +18,9 @@ h1 {
   border-bottom: 2px solid rgb(209, 150, 21);
   margin: 0px;
   padding: 30px;
+  color: gold;
+
+  -webkit-text-stroke: 1px white;
 }
 #me {
   font-size: 15px;
@@ -27,8 +30,10 @@ h1 {
   padding: 20px;
 }
 a {
-  color: gold;
+  color: rgb(209, 150, 21);
   font-size: 15px;
+
+  -webkit-text-stroke: 0.1px white;
 }
 #lol {
   text-decoration: none;
@@ -44,20 +49,33 @@ a {
   line-height: 1.9em;
 }
 h4 {
-  color: rgba(245, 111, 1, 0.973);
+  color: gold;
+  -webkit-text-stroke: 0.16px white;
 }
 
 h3 {
-  color: rgba(245, 111, 1, 0.973);
+  color: gold;
+
+  -webkit-text-stroke: 0.3px white;
+}
+h2 {
+  color: gold;
+
+  -webkit-text-stroke: 0.5px white;
 }
 body {
   margin: 2px;
   background-color: black;
-  color: rgb(209, 150, 21);
+  color: white;
   line-height: 1.4em;
   vertical-align: baseline;
   border: 2px solid rgb(209, 150, 21);
   font-family: arial, "Times New Roman", sans;
+}
+ol {
+  color: rgb(209, 150, 21);
+
+  -webkit-text-stroke: 0.1px white;
 }
 
 #grid {
@@ -79,6 +97,9 @@ img.JunSungPhoto {
 
 img.Photo {
   margin: 10px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
 }
 @media (max-width: 800px) {
   #grid {
